@@ -11,7 +11,9 @@ env:
 
 jobs:
   build:
-    runs-on: codebuild-GitHubActionsDemo-${{ github.run_id }}-${{ github.run_attempt }}
+    runs-on:
+      - codebuild-GitHubActionsDemo-${{ github.run_id }}-${{ github.run_attempt }}
+      - buildspec-override:true
     steps:
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
