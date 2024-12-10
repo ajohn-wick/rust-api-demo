@@ -1,3 +1,3 @@
 # rust-api-demo
 
-Have some Fun!
+Try it out!
