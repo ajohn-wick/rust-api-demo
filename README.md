@@ -1,3 +1,3 @@
 # rust-api-demo
 
-Dont let me go!
+Now Go Build!
